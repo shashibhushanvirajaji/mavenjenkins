@@ -3,8 +3,7 @@
 <suite name="Suite1" verbose="1">
 	<test name="firsttest">
 		<classes>
-			<class name="jenkinstraining.UITest" />
-			
+			<class name="jenkinstraining.UITest" />			
 		</classes>
 	</test>
 </suite>
