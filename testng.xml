@@ -4,6 +4,7 @@
 	<test name="firsttest">
 		<classes>
 			<class name="jenkinstraining.UITest" />
+			
 		</classes>
 	</test>
 </suite>
