@@ -2,12 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="jenkinstraining.UITest" duration-ms="34453" started-at="2021-09-02T11:53:22 IST" finished-at="2021-09-02T11:53:57 IST">
+  <suite name="jenkinstraining.UITest" duration-ms="71975" started-at="2021-09-03T07:29:58 IST" finished-at="2021-09-03T07:31:10 IST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="34453" started-at="2021-09-02T11:53:22 IST" finished-at="2021-09-02T11:53:57 IST">
+    <test name="Command line test" duration-ms="71975" started-at="2021-09-03T07:29:58 IST" finished-at="2021-09-03T07:31:10 IST">
       <class name="jenkinstraining.UITest">
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:jenkinstraining.UITest@5ae63ade]" name="firstTest" duration-ms="34307" started-at="2021-09-02T11:53:23 IST" finished-at="2021-09-02T11:53:57 IST">
+        <test-method status="PASS" signature="firstTest(java.lang.String)[pri:0, instance:jenkinstraining.UITest@5c5a1b69]" name="firstTest" duration-ms="71830" started-at="2021-09-03T07:29:58 IST" finished-at="2021-09-03T07:31:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
