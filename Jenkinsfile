@@ -13,7 +13,7 @@ pipeline {
         }
          stage('Test') {
             steps {
-                bat "mvn -Dmaven.test.failure.ignore=true clean install"
+                bat "mvn -Dmaven.test.failure.ignore=true clean install -DBrowser=$Browser"
             }
         }
          stage('Deploy') {
