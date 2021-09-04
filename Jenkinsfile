@@ -9,7 +9,7 @@ pipeline {
         }
          stage('Test') {
             steps {
-                 echo 'Testing the application'
+                bat "mvn -Dmaven.test.failure.ignore=true clean install"
             }
         }
          stage('Deploy') {
