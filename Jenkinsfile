@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Install the Maven version configured as "Maven_Home" and add it to the path.
-        maven "MAVEM_HOME"
+        maven "MAVEN_HOME"
     }
     stages {
         stage('Build') {
