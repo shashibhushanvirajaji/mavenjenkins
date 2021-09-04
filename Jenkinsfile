@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        // Install the Maven version configured as "Maven_Home" and add it to the path.
+        maven "MAVEM_HOME"
+    }
     stages {
         stage('Build') {
             steps {
